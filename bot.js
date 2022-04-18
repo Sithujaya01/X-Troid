@@ -278,7 +278,7 @@ async function LasiXtroid () {
     }
     conn.on ('open', async () => {
         console.log(
-            chalk.blueBright.italic('✅ Login Information Updated!')
+            chalk.blueBright.italic('Nice 👌')
         );
         const authInfo = conn.base64EncodedAuthInfo();
         if (StrSes_Db.length < 1) {
@@ -295,7 +295,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
     });
     conn.on('credentials-updated', async () => {
         console.log(
-            chalk.green.bold('✅ Login successful!')
+            chalk.green.bold('JF-Bot Public ✅')
         );
         console.log(
             chalk.blueBright.italic('⬇️ Installing External Plugins...')
@@ -335,7 +335,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
         let aftroid = config.WORKTYPE == 'public' ? ' Public' : ' Private'
         console.log(chalk.bgGreen('🚀 X-Troid' + aftroid));
         await new Promise(r => setTimeout(r, 500));
-        let LIZA_ACTION = config.LANG == 'SI' || config.LANG == 'EN'? '*🚀 X-TOID චැට්බෝට් ලෙස ක්රියා කරයි!*  \n\nමෙම ප්රකාරයේ පරමාර්ථය වන්නේ bot සම්පුර්ණයෙන්ම ක්රියාකාරී කෘතිම බුද්ධියට හරවා ගැනීමයි.\n_කෘතීම බුද්ධිය ඉවත් කිරීමට_ *.liza off* _ඔබට ඔබේ විධානය භාවිතා කළ හැකිය._\n\n*🚀 X-Troid භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌*\n    *- Liza*' : '*🚀 X-Troid Working as a Chatbot!  *\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.liza off* _command to return to normal mode._\n\n*Thanks For Using 🚀 X-Troid 💌*\n    *- Liza*'
+        let LIZA_ACTION = config.LANG == 'SI' || config.LANG == 'EN'? '*🚀 jf චැට්බෝට් ලෙස ක්රියා කරයි!*  \n\nමෙම ප්රකාරයේ පරමාර්ථය වන්නේ bot සම්පුර්ණයෙන්ම ක්රියාකාරී කෘතිම බුද්ධියට හරවා ගැනීමයි.\n_කෘතීම බුද්ධිය ඉවත් කිරීමට_ *.liza off* _ඔබට ඔබේ විධානය භාවිතා කළ හැකිය._\n\n*🚀 X-Troid භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌*\n    *- Liza*' : '*🚀 X-Troid Working as a Chatbot!  *\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.liza off* _command to return to normal mode._\n\n*Thanks For Using 🚀 X-Troid 💌*\n    *- Liza*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -353,7 +353,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
                 if (config.AILIZA == 'true') {
                     await conn.sendMessage(conn.user.jid, LIZA_ACTION, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🚀 X-Troid Public  ලෙස ක්රියා කරයි!  *\n\n_මෙය ඔබගේ ලොග් සටහන් අංකය බැවින් මෙහි එන පණිවුඩ සහා අවධානයෙන් සිටින්න._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය නමුත් මෙහි නොකරන්න:)_\n\n*bot පොදු කිරීමට .වෙනස් කිරීමට* _.setvar WORK_TYPE: private_ *ඔබේ විධානය භාවිතා කරන්න.*\n\n*🚀 X-Troid භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌* ', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🚀 jf ලෙස ක්රියා කරයි!  *\n\n_මෙය ඔබගේ ලොග් සටහන් අංකය බැවින් මෙහි එන පණිවුඩ සහා අවධානයෙන් සිටින්න._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය නමුත් මෙහි නොකරන්න:)_\n\n*bot පොදු කිරීමට .වෙනස් කිරීමට* _.setvar WORK_TYPE: private_ *ඔබේ විධානය භාවිතා කරන්න.*\n\n*🚀 X-Troid භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌* ', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
